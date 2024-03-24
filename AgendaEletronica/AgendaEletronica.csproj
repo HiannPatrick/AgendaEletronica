@@ -6,11 +6,48 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Resources\address_book-128 [16x16].ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Forms\" />
+    <Content Include="Resources\address_book-128 [16x16].ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Database\Queries\" />
     <Folder Include="Controller\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Private\Util.Classes\Util.Classes\Util.Classes.csproj" />
+    <ProjectReference Include="..\..\..\DatabaseConnections\DatabaseConnections\DatabaseConnections.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Database\AgendaEletronicaDataSet.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AgendaEletronicaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Database\AgendaEletronicaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AgendaEletronicaDataSet.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>

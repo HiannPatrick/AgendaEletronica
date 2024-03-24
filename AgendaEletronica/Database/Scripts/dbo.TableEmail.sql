@@ -5,5 +5,6 @@
     [UserEmail] NVARCHAR(50) NOT NULL, 
     [Draft] TINYINT NOT NULL DEFAULT 1, 
     [Subject] NVARCHAR(50) NOT NULL, 
-    [Body] NVARCHAR(MAX) NULL
+    [Body] NVARCHAR(MAX) NULL,
+    CONSTRAINT [FK_Email_ToUser] FOREIGN KEY ([UserId]) REFERENCES [User]([Id])
 )
