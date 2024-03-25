@@ -15,10 +15,10 @@
 
   <ItemGroup>
     <Folder Include="Database\Queries\" />
-    <Folder Include="Controller\" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Private\Forms.Inherited\Forms.Inherited\Forms.Inherited.csproj" />
     <ProjectReference Include="..\..\..\..\Private\Util.Classes\Util.Classes\Util.Classes.csproj" />
     <ProjectReference Include="..\..\..\DatabaseConnections\DatabaseConnections\DatabaseConnections.csproj" />
   </ItemGroup>

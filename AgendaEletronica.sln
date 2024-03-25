@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaEletronica", "AgendaEletronica\AgendaEletronica.csproj", "{41300963-D3AA-48A7-9FF3-8F4E38BC3D99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendaEletronica", "AgendaEletronica\AgendaEletronica.csproj", "{41300963-D3AA-48A7-9FF3-8F4E38BC3D99}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Util.Classes", "..\..\..\Private\Util.Classes\Util.Classes\Util.Classes.csproj", "{8D99C274-BFB5-4399-A670-FB57F46D1E8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseConnections", "..\..\DatabaseConnections\DatabaseConnections\DatabaseConnections.csproj", "{B0210B4F-75BC-4698-AA37-9068671E1D81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseConnections", "..\..\DatabaseConnections\DatabaseConnections\DatabaseConnections.csproj", "{B0210B4F-75BC-4698-AA37-9068671E1D81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forms.Inherited", "..\..\..\Private\Forms.Inherited\Forms.Inherited\Forms.Inherited.csproj", "{ACC2BEC4-5319-49E8-B98A-51E0241F0FEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B0210B4F-75BC-4698-AA37-9068671E1D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0210B4F-75BC-4698-AA37-9068671E1D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0210B4F-75BC-4698-AA37-9068671E1D81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC2BEC4-5319-49E8-B98A-51E0241F0FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC2BEC4-5319-49E8-B98A-51E0241F0FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC2BEC4-5319-49E8-B98A-51E0241F0FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC2BEC4-5319-49E8-B98A-51E0241F0FEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
