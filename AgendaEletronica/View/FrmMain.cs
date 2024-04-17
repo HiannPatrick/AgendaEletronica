@@ -31,6 +31,14 @@ namespace AgendaEletronica.Forms
 				},
 				new SubmenuObjetos
 				{
+					MenuRaiz = EnumMenuRaiz.Cadastros,
+					Nome = "Usuários",
+					Namespace = "AgendaEletronica.View.FrmUserOverview",
+					TipoFormulario = EnumTipoFormulario.DataView,
+					Assembly = ""
+				},
+				new SubmenuObjetos
+				{
 					MenuRaiz = EnumMenuRaiz.Ferramentas,
 					Nome = "Configurar Conexão",
 					Namespace = "DatabaseConnections.View.FrmConnections",

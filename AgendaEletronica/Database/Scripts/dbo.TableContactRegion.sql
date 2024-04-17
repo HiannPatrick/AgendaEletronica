@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[ContactRegion]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
+	[Id] INT IDENTITY(1,1) PRIMARY KEY,
     [Name] NCHAR(50) NOT NULL,
 	[Active] TINYINT NOT NULL DEFAULT 1, 
 )

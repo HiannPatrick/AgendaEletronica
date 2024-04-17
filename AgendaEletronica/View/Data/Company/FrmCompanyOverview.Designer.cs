@@ -48,6 +48,7 @@
 			this.dgvCompany.DataSource = this.bindCompany;
 			this.dgvCompany.Dock = DockStyle.Fill;
 			this.dgvCompany.Location = new Point( 0, 54 );
+			this.dgvCompany.MultiSelect = false;
 			this.dgvCompany.Name = "dgvCompany";
 			this.dgvCompany.ReadOnly = true;
 			this.dgvCompany.RowHeadersVisible = false;
